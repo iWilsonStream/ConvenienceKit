@@ -17,6 +17,11 @@
 		977744701CBCBC3A005BF00D /* MLFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777446F1CBCBC3A005BF00D /* MLFButton.m */; };
 		977744791CBCC38D005BF00D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977744781CBCC38D005BF00D /* ViewController.m */; };
 		9777447C1CBCC43A005BF00D /* MLFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777447B1CBCC43A005BF00D /* MLFLabel.m */; };
+		9777449A1CBCF374005BF00D /* NSMutableString+TagReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 977744911CBCF374005BF00D /* NSMutableString+TagReplace.m */; };
+		9777449B1CBCF374005BF00D /* NSString+WPAttributedMarkup.m in Sources */ = {isa = PBXBuildFile; fileRef = 977744931CBCF374005BF00D /* NSString+WPAttributedMarkup.m */; };
+		9777449C1CBCF374005BF00D /* WPAttributedStyleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 977744951CBCF374005BF00D /* WPAttributedStyleAction.m */; };
+		9777449D1CBCF374005BF00D /* WPHotspotLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977744971CBCF374005BF00D /* WPHotspotLabel.m */; };
+		9777449E1CBCF374005BF00D /* WPTappableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977744991CBCF374005BF00D /* WPTappableLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,16 @@
 		977744781CBCC38D005BF00D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9777447A1CBCC43A005BF00D /* MLFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFLabel.h; sourceTree = "<group>"; };
 		9777447B1CBCC43A005BF00D /* MLFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLFLabel.m; sourceTree = "<group>"; };
+		977744901CBCF374005BF00D /* NSMutableString+TagReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+TagReplace.h"; sourceTree = "<group>"; };
+		977744911CBCF374005BF00D /* NSMutableString+TagReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+TagReplace.m"; sourceTree = "<group>"; };
+		977744921CBCF374005BF00D /* NSString+WPAttributedMarkup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WPAttributedMarkup.h"; sourceTree = "<group>"; };
+		977744931CBCF374005BF00D /* NSString+WPAttributedMarkup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WPAttributedMarkup.m"; sourceTree = "<group>"; };
+		977744941CBCF374005BF00D /* WPAttributedStyleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAttributedStyleAction.h; sourceTree = "<group>"; };
+		977744951CBCF374005BF00D /* WPAttributedStyleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAttributedStyleAction.m; sourceTree = "<group>"; };
+		977744961CBCF374005BF00D /* WPHotspotLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPHotspotLabel.h; sourceTree = "<group>"; };
+		977744971CBCF374005BF00D /* WPHotspotLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPHotspotLabel.m; sourceTree = "<group>"; };
+		977744981CBCF374005BF00D /* WPTappableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTappableLabel.h; sourceTree = "<group>"; };
+		977744991CBCF374005BF00D /* WPTappableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTappableLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				977744761CBCC38D005BF00D /* demo */,
+				9777447D1CBCD3AA005BF00D /* AttributedStringWithTap */,
 				977744711CBCC2CF005BF00D /* ActionLabel */,
 				9777446C1CBCBC17005BF00D /* Button */,
 				977744381CBCBBDF005BF00D /* MultifunctionalButton */,
@@ -172,6 +188,23 @@
 				977744781CBCC38D005BF00D /* ViewController.m */,
 			);
 			path = demo;
+			sourceTree = "<group>";
+		};
+		9777447D1CBCD3AA005BF00D /* AttributedStringWithTap */ = {
+			isa = PBXGroup;
+			children = (
+				977744901CBCF374005BF00D /* NSMutableString+TagReplace.h */,
+				977744911CBCF374005BF00D /* NSMutableString+TagReplace.m */,
+				977744921CBCF374005BF00D /* NSString+WPAttributedMarkup.h */,
+				977744931CBCF374005BF00D /* NSString+WPAttributedMarkup.m */,
+				977744941CBCF374005BF00D /* WPAttributedStyleAction.h */,
+				977744951CBCF374005BF00D /* WPAttributedStyleAction.m */,
+				977744961CBCF374005BF00D /* WPHotspotLabel.h */,
+				977744971CBCF374005BF00D /* WPHotspotLabel.m */,
+				977744981CBCF374005BF00D /* WPTappableLabel.h */,
+				977744991CBCF374005BF00D /* WPTappableLabel.m */,
+			);
+			path = AttributedStringWithTap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +339,11 @@
 			files = (
 				977744701CBCBC3A005BF00D /* MLFButton.m in Sources */,
 				9777447C1CBCC43A005BF00D /* MLFLabel.m in Sources */,
+				9777449D1CBCF374005BF00D /* WPHotspotLabel.m in Sources */,
+				9777449C1CBCF374005BF00D /* WPAttributedStyleAction.m in Sources */,
+				9777449A1CBCF374005BF00D /* NSMutableString+TagReplace.m in Sources */,
+				9777449B1CBCF374005BF00D /* NSString+WPAttributedMarkup.m in Sources */,
+				9777449E1CBCF374005BF00D /* WPTappableLabel.m in Sources */,
 				9777443E1CBCBBDF005BF00D /* AppDelegate.m in Sources */,
 				977744791CBCC38D005BF00D /* ViewController.m in Sources */,
 				9777443B1CBCBBDF005BF00D /* main.m in Sources */,
@@ -534,6 +572,7 @@
 				977744651CBCBBDF005BF00D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		977744661CBCBBDF005BF00D /* Build configuration list for PBXNativeTarget "MultifunctionalButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +581,7 @@
 				977744681CBCBBDF005BF00D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		977744691CBCBBDF005BF00D /* Build configuration list for PBXNativeTarget "MultifunctionalButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +590,7 @@
 				9777446B1CBCBBDF005BF00D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
