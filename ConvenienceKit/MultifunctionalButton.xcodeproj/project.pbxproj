@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9777443B1CBCBBDF005BF00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777443A1CBCBBDF005BF00D /* main.m */; };
+		9777443E1CBCBBDF005BF00D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777443D1CBCBBDF005BF00D /* AppDelegate.m */; };
+		977744441CBCBBDF005BF00D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977744421CBCBBDF005BF00D /* Main.storyboard */; };
+		977744461CBCBBDF005BF00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977744451CBCBBDF005BF00D /* Assets.xcassets */; };
+		977744491CBCBBDF005BF00D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977744471CBCBBDF005BF00D /* LaunchScreen.storyboard */; };
+		977744541CBCBBDF005BF00D /* MultifunctionalButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 977744531CBCBBDF005BF00D /* MultifunctionalButtonTests.m */; };
+		9777445F1CBCBBDF005BF00D /* MultifunctionalButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777445E1CBCBBDF005BF00D /* MultifunctionalButtonUITests.m */; };
+		977744701CBCBC3A005BF00D /* MLFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777446F1CBCBC3A005BF00D /* MLFButton.m */; };
+		977744791CBCC38D005BF00D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977744781CBCC38D005BF00D /* ViewController.m */; };
+		9777447C1CBCC43A005BF00D /* MLFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777447B1CBCC43A005BF00D /* MLFLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		977744501CBCBBDF005BF00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9777442E1CBCBBDF005BF00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 977744351CBCBBDF005BF00D;
+			remoteInfo = MultifunctionalButton;
+		};
+		9777445B1CBCBBDF005BF00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9777442E1CBCBBDF005BF00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 977744351CBCBBDF005BF00D;
+			remoteInfo = MultifunctionalButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		977744361CBCBBDF005BF00D /* MultifunctionalButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultifunctionalButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9777443A1CBCBBDF005BF00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9777443C1CBCBBDF005BF00D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9777443D1CBCBBDF005BF00D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		977744431CBCBBDF005BF00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		977744451CBCBBDF005BF00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		977744481CBCBBDF005BF00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9777444A1CBCBBDF005BF00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9777444F1CBCBBDF005BF00D /* MultifunctionalButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultifunctionalButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		977744531CBCBBDF005BF00D /* MultifunctionalButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultifunctionalButtonTests.m; sourceTree = "<group>"; };
+		977744551CBCBBDF005BF00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9777445A1CBCBBDF005BF00D /* MultifunctionalButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultifunctionalButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9777445E1CBCBBDF005BF00D /* MultifunctionalButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultifunctionalButtonUITests.m; sourceTree = "<group>"; };
+		977744601CBCBBDF005BF00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9777446E1CBCBC3A005BF00D /* MLFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFButton.h; sourceTree = "<group>"; };
+		9777446F1CBCBC3A005BF00D /* MLFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLFButton.m; sourceTree = "<group>"; };
+		977744771CBCC38D005BF00D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		977744781CBCC38D005BF00D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9777447A1CBCC43A005BF00D /* MLFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFLabel.h; sourceTree = "<group>"; };
+		9777447B1CBCC43A005BF00D /* MLFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLFLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		977744331CBCBBDF005BF00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9777444C1CBCBBDF005BF00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977744571CBCBBDF005BF00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9777442D1CBCBBDF005BF00D = {
+			isa = PBXGroup;
+			children = (
+				977744761CBCC38D005BF00D /* demo */,
+				977744711CBCC2CF005BF00D /* ActionLabel */,
+				9777446C1CBCBC17005BF00D /* Button */,
+				977744381CBCBBDF005BF00D /* MultifunctionalButton */,
+				977744521CBCBBDF005BF00D /* MultifunctionalButtonTests */,
+				9777445D1CBCBBDF005BF00D /* MultifunctionalButtonUITests */,
+				977744371CBCBBDF005BF00D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		977744371CBCBBDF005BF00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				977744361CBCBBDF005BF00D /* MultifunctionalButton.app */,
+				9777444F1CBCBBDF005BF00D /* MultifunctionalButtonTests.xctest */,
+				9777445A1CBCBBDF005BF00D /* MultifunctionalButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		977744381CBCBBDF005BF00D /* MultifunctionalButton */ = {
+			isa = PBXGroup;
+			children = (
+				9777443C1CBCBBDF005BF00D /* AppDelegate.h */,
+				9777443D1CBCBBDF005BF00D /* AppDelegate.m */,
+				977744421CBCBBDF005BF00D /* Main.storyboard */,
+				977744451CBCBBDF005BF00D /* Assets.xcassets */,
+				977744471CBCBBDF005BF00D /* LaunchScreen.storyboard */,
+				9777444A1CBCBBDF005BF00D /* Info.plist */,
+				977744391CBCBBDF005BF00D /* Supporting Files */,
+			);
+			path = MultifunctionalButton;
+			sourceTree = "<group>";
+		};
+		977744391CBCBBDF005BF00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9777443A1CBCBBDF005BF00D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		977744521CBCBBDF005BF00D /* MultifunctionalButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				977744531CBCBBDF005BF00D /* MultifunctionalButtonTests.m */,
+				977744551CBCBBDF005BF00D /* Info.plist */,
+			);
+			path = MultifunctionalButtonTests;
+			sourceTree = "<group>";
+		};
+		9777445D1CBCBBDF005BF00D /* MultifunctionalButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9777445E1CBCBBDF005BF00D /* MultifunctionalButtonUITests.m */,
+				977744601CBCBBDF005BF00D /* Info.plist */,
+			);
+			path = MultifunctionalButtonUITests;
+			sourceTree = "<group>";
+		};
+		9777446C1CBCBC17005BF00D /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				9777446E1CBCBC3A005BF00D /* MLFButton.h */,
+				9777446F1CBCBC3A005BF00D /* MLFButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		977744711CBCC2CF005BF00D /* ActionLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9777447A1CBCC43A005BF00D /* MLFLabel.h */,
+				9777447B1CBCC43A005BF00D /* MLFLabel.m */,
+			);
+			path = ActionLabel;
+			sourceTree = "<group>";
+		};
+		977744761CBCC38D005BF00D /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				977744771CBCC38D005BF00D /* ViewController.h */,
+				977744781CBCC38D005BF00D /* ViewController.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		977744351CBCBBDF005BF00D /* MultifunctionalButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977744631CBCBBDF005BF00D /* Build configuration list for PBXNativeTarget "MultifunctionalButton" */;
+			buildPhases = (
+				977744321CBCBBDF005BF00D /* Sources */,
+				977744331CBCBBDF005BF00D /* Frameworks */,
+				977744341CBCBBDF005BF00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultifunctionalButton;
+			productName = MultifunctionalButton;
+			productReference = 977744361CBCBBDF005BF00D /* MultifunctionalButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9777444E1CBCBBDF005BF00D /* MultifunctionalButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977744661CBCBBDF005BF00D /* Build configuration list for PBXNativeTarget "MultifunctionalButtonTests" */;
+			buildPhases = (
+				9777444B1CBCBBDF005BF00D /* Sources */,
+				9777444C1CBCBBDF005BF00D /* Frameworks */,
+				9777444D1CBCBBDF005BF00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977744511CBCBBDF005BF00D /* PBXTargetDependency */,
+			);
+			name = MultifunctionalButtonTests;
+			productName = MultifunctionalButtonTests;
+			productReference = 9777444F1CBCBBDF005BF00D /* MultifunctionalButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		977744591CBCBBDF005BF00D /* MultifunctionalButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977744691CBCBBDF005BF00D /* Build configuration list for PBXNativeTarget "MultifunctionalButtonUITests" */;
+			buildPhases = (
+				977744561CBCBBDF005BF00D /* Sources */,
+				977744571CBCBBDF005BF00D /* Frameworks */,
+				977744581CBCBBDF005BF00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9777445C1CBCBBDF005BF00D /* PBXTargetDependency */,
+			);
+			name = MultifunctionalButtonUITests;
+			productName = MultifunctionalButtonUITests;
+			productReference = 9777445A1CBCBBDF005BF00D /* MultifunctionalButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9777442E1CBCBBDF005BF00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iWilsonStream;
+				TargetAttributes = {
+					977744351CBCBBDF005BF00D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9777444E1CBCBBDF005BF00D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 977744351CBCBBDF005BF00D;
+					};
+					977744591CBCBBDF005BF00D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 977744351CBCBBDF005BF00D;
+					};
+				};
+			};
+			buildConfigurationList = 977744311CBCBBDF005BF00D /* Build configuration list for PBXProject "MultifunctionalButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9777442D1CBCBBDF005BF00D;
+			productRefGroup = 977744371CBCBBDF005BF00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				977744351CBCBBDF005BF00D /* MultifunctionalButton */,
+				9777444E1CBCBBDF005BF00D /* MultifunctionalButtonTests */,
+				977744591CBCBBDF005BF00D /* MultifunctionalButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		977744341CBCBBDF005BF00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977744491CBCBBDF005BF00D /* LaunchScreen.storyboard in Resources */,
+				977744461CBCBBDF005BF00D /* Assets.xcassets in Resources */,
+				977744441CBCBBDF005BF00D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9777444D1CBCBBDF005BF00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977744581CBCBBDF005BF00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		977744321CBCBBDF005BF00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977744701CBCBC3A005BF00D /* MLFButton.m in Sources */,
+				9777447C1CBCC43A005BF00D /* MLFLabel.m in Sources */,
+				9777443E1CBCBBDF005BF00D /* AppDelegate.m in Sources */,
+				977744791CBCC38D005BF00D /* ViewController.m in Sources */,
+				9777443B1CBCBBDF005BF00D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9777444B1CBCBBDF005BF00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977744541CBCBBDF005BF00D /* MultifunctionalButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977744561CBCBBDF005BF00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9777445F1CBCBBDF005BF00D /* MultifunctionalButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		977744511CBCBBDF005BF00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 977744351CBCBBDF005BF00D /* MultifunctionalButton */;
+			targetProxy = 977744501CBCBBDF005BF00D /* PBXContainerItemProxy */;
+		};
+		9777445C1CBCBBDF005BF00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 977744351CBCBBDF005BF00D /* MultifunctionalButton */;
+			targetProxy = 9777445B1CBCBBDF005BF00D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		977744421CBCBBDF005BF00D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977744431CBCBBDF005BF00D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		977744471CBCBBDF005BF00D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977744481CBCBBDF005BF00D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		977744611CBCBBDF005BF00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		977744621CBCBBDF005BF00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		977744641CBCBBDF005BF00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultifunctionalButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netschina.MultifunctionalButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		977744651CBCBBDF005BF00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultifunctionalButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netschina.MultifunctionalButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		977744671CBCBBDF005BF00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultifunctionalButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netschina.MultifunctionalButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultifunctionalButton.app/MultifunctionalButton";
+			};
+			name = Debug;
+		};
+		977744681CBCBBDF005BF00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultifunctionalButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netschina.MultifunctionalButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultifunctionalButton.app/MultifunctionalButton";
+			};
+			name = Release;
+		};
+		9777446A1CBCBBDF005BF00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultifunctionalButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netschina.MultifunctionalButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultifunctionalButton;
+			};
+			name = Debug;
+		};
+		9777446B1CBCBBDF005BF00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultifunctionalButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netschina.MultifunctionalButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultifunctionalButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		977744311CBCBBDF005BF00D /* Build configuration list for PBXProject "MultifunctionalButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977744611CBCBBDF005BF00D /* Debug */,
+				977744621CBCBBDF005BF00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		977744631CBCBBDF005BF00D /* Build configuration list for PBXNativeTarget "MultifunctionalButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977744641CBCBBDF005BF00D /* Debug */,
+				977744651CBCBBDF005BF00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		977744661CBCBBDF005BF00D /* Build configuration list for PBXNativeTarget "MultifunctionalButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977744671CBCBBDF005BF00D /* Debug */,
+				977744681CBCBBDF005BF00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		977744691CBCBBDF005BF00D /* Build configuration list for PBXNativeTarget "MultifunctionalButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9777446A1CBCBBDF005BF00D /* Debug */,
+				9777446B1CBCBBDF005BF00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9777442E1CBCBBDF005BF00D /* Project object */;
+}
